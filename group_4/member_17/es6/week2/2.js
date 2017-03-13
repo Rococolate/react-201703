@@ -10,6 +10,7 @@ function Animal () {
 
 Animal.prototype.getInfo () {
   var info  = 'A '+ this.age + ' years old '+this.gender + ' ' + this.name
+  console.log(info)
 }
 
 new Animal('cat', 'male', 'two').getInfo()
