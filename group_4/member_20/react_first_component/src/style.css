@@ -1,0 +1,40 @@
+/*! Copyright Flying Unicorns inc. */
+/*.root {
+  background-color: #eee;
+  padding: 10px;
+  border: 3px solid #ccc;
+}*/
+.containt{}
+.containt ul{}
+.containt li{
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+}
+.containt li .btn{
+  position: absolute;
+  right: 5%;
+  top: 5px;
+}
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
